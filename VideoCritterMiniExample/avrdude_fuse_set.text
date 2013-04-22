@@ -1,0 +1,4 @@
+
+Make sure fuses for clock are set correctly.  run this:
+
+avrdude -p atmega8 -P /dev/parport0 -c stk200 -U lfuse:w:0xef:m -u

@@ -1,0 +1,14 @@
+
+To compile the program (load.c to load.hex), use:
+
+$ make
+
+To program the AVR:
+
+$ make load
+
+'make load' attempts to program the AVR with the command in the Makefile.  This will probably have to be changed depending on what system and programmer you are using.
+
+We used avr-gcc version 3.4.3 to compile, and it should work with other versions of avr-gcc.  If you are having trouble, a pre-compiled version is provided (CA-Synth.hex).  To try the precompiled version use:
+
+$ make pre
